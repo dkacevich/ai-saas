@@ -69,7 +69,7 @@ const DashboardPage = () => {
                         <Card
                             onClick={() => router.push(tool.href)}
                             key={tool.href}
-                            className='flex items-center py-3 px-4 cursor-pointer'
+                            className='flex items-center py-3 px-4 cursor-pointer transition hover:shadow'
                         >
                             <div
                                 className={cn(

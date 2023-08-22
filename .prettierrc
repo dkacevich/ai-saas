@@ -12,6 +12,7 @@
     "^@/services(.*)$",
     "^@/hooks(.*)$",
     "^@/types(.*)$",
+    "^./(.*)$",
     "(.scss)$"
   ],
   "importOrderSeparation": true,
